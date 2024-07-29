@@ -1,0 +1,16 @@
+[
+  ["Feeling Overwhelmed or Can't handle it anymore", "Break tasks into smaller, manageable steps. Prioritize tasks and focus on one thing at a time."],
+  ["Exhaustion or I'm so tired, but I can't sleep", "Prioritize sleep hygiene. Establish a consistent sleep schedule, create a relaxing bedtime routine, and limit screen time before bed."],
+  ["Changes in Sleep Patterns or  can't fall asleep or stay asleep or I'm sleeping too much but still feel tired", "Establish a regular sleep routine, limit caffeine and screen time before bed, and create a comfortable sleep environment."],
+  ["Difficulty Concentrating or I can't focus on anything or My mind is constantly racing", "Break tasks into smaller, focused intervals. Practice mindfulness or meditation to improve concentration."],
+  ["I don't enjoy things I used to love or Loss of Interest", "Reconnect with activities that used to bring joy. Set small, achievable goals to regain a sense of accomplishment."],
+  ["Irritability", "Practice stress-management techniques such as deep breathing or meditation. Identify and communicate triggers."],
+  ["Isolation", "Reach out to friends or family. Join social groups or activities."],
+  ["Negative Self-Talk", "Challenge negative thoughts with positive affirmations. Practice self-compassion"],
+  ["Appetite Changes", "Establish regular, balanced meals. Monitor emotional eating patterns."],
+  ["Feeling Hopeless", "Reach out to a trusted friend, family member, or mental health professional. Focus on setting small, achievable goals."],
+  ["Increased Anxiety", "Practice relaxation techniques such as deep breathing or mindfulness. Identify and challenge anxious thoughts."],
+  ["I want to cry but its bad to cry","What happened? Crying is a way to vent all your feelings out.It is not bad."],
+  ["I want to die.I want to suicide","Life is a precious gift.Take a break,rest,do things you love and enjoy it without analysing it"]
+]
+

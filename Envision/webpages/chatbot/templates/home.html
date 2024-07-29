@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+   
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="name_logo">
+                <h1>HappyMind</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">BookAppointment</a></li>
+                    <li><a href="/chatbot.html">ChatBot</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="log_signup">
+                <a href="#"><button class="btn">Login</button></a>
+                <a href="#"><button class="btn">SignUp</button></a>
+            </div>
+        </div>
+        <div class="intro">
+            <p>Welcome to HappyMind, your dedicated ally in mental well-being. Our compassionate chatbot and diverse resources provide round-the-clock support for a judgment-free space where you can express, learn, and connect on your mental health journey. Explore articles, guides, and community forums, or engage our AI chatbot for immediate assistance. Your well-being is our priority.</p>
+        </div>
+        <img src="{{ url_for('static', filename='assets/image.jpg') }}" alt="Mental Well-being">
+    </div>
+    
+    
+
+</body>
+</html>

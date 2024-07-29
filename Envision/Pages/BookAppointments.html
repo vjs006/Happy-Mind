@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="appointment_styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="name_logo">
+                    <h1>HappyMind</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">ChatBot</a></li>
+                        <li><a href="#">Tips</a></li>
+                        <li><a href="#">ContactUs</a></li>
+                    </ul>
+                </div>
+                <div class="log_signup">
+                    <a href="#"><button class="btn">Login</button></a>
+                    <a href="#"><button class="btn">SignUp</button></a>
+                </div>
+            </div>
+        </header>
+        <br><br><br>
+        <section class="doctors_list">
+            <div class="page_description">
+                <h3>Based on an assessment of your mental health, these medical professionals are recommended for you</h3>
+            </div>
+            <br><br><br>
+            <div class="doctor_info">
+                <div>
+                    <span>No. </span>
+                    <span>Doctor Name</span>
+                    <span>Expertise</span>
+                    <span>Location</span>
+                    <span>Contact Number</span>
+                </div>
+                <script>
+                    let numberOfDivs = 5;
+                    let contentArray = [["No.", "Doctor Name", "Expertise", "Location", "Contact Number"],
+                                        ["1.", "Raj Kumar", "Psychologist", "Adyar, Chennai", "+91 9723651482"],
+                                        ["No.", "Doctor Name", "Expertise", "Location", "Contact Number"],
+                                        ["No.", "Doctor Name", "Expertise", "Location", "Contact Number"],
+                                        ["No.", "Doctor Name", "Expertise", "Location", "Contact Number"]]
+                    for (let i = 0; i < numberOfDivs; i++) {
+                        let newDiv = document.createElement('div');
+                        newDiv.classList.add("doctor_entry");
+                        for (let j = 0; j < contentArray[i].length; j++) {
+                            let newSpan = document.createElement('span');
+                            newSpan.textContent = contentArray[i][j];
+                            newDiv.appendChild(newSpan);
+                        }
+                        document.querySelector(".doctors_list .doctors_info").appendChild(newDiv);
+                    }
+                </script>
+            </div>
+        </section>
+    </body>
+</html>

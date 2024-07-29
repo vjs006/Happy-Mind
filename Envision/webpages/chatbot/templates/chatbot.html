@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name = "viewport" content = "width=deive-width, initial-scale=1.0" >
+        <title>HappyMind</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chat_style.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="name_logo">
+                    <h1>HappyMind</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">ChatBot</a></li>
+                        <li><a href="#">Tips</a></li>
+                        <li><a href="#">ContactUs</a></li>
+                    </ul>
+                </div>
+                <div class="log_signup">
+                    <a href="#"><button class="btn">Login</button></a>
+                    <a href="#"><button class="btn">SignUp</button></a>
+                </div>
+            </div>
+        </header>
+        <heading class="bot_title">
+            <h2>CHATBOT</h2>
+        </heading>
+        <div class="chat_bot">
+            <div class="chat_canvas" id="chat_canvas">
+                <div class="replies" id="replies">
+                    <div class="reply" >
+                        Hi there! How may I help you?
+                    </div>
+                </div>
+            </div>
+            <div class="type_box">
+                <input type="text" id="input_text" placeholder="Type to Enter text" class = "input_text">
+                <button type="button" class ="enter_button" onclick="sendMessage()">&#8680</button>
+            </div>
+        </div>
+    </body>
+</html>

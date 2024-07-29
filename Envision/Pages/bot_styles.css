@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    color: lightblue;
+}
+
+.name_logo{
+    width: 270px;
+    height: 70px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+
+.log_signup{
+    width:300px;
+    float: left;
+    margin-left: 200px;
+}
+.btn{
+    width: 40%;
+    height: 40px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 25px;
+    font-size: 15px;
+    
+}
+
+.btn:hover{
+    background-color: beige;
+    font-weight: bold;
+}
+
+.chatbot{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    overflow:hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 128px rgba(0, 0, 0, 0.1)
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    background:white;
+}
+
+.chatbot header{
+    background: #724ae8;
+    padding: 16px 0;
+    text-align:center;
+}

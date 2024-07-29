@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30% , rgba(0, 0, 0, 0.3)80%), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.reg-block{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    background: linear-gradient(to top, rgba(256, 256, 256, 0.1)50% , rgba(256, 256, 256, 0.1)50%);
+    background-position: center;
+    height: 595px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    border-color: white;
+    border-width: 2px;
+}
+
+.sign-in{
+    color: white;
+    font-family: Arial;
+    position: center;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    margin-left: 25%;
+}
+
+label{
+    color: white;
+    display: block;
+    font-family: Arial;
+    position: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+input{
+    color: white;
+    display: block;
+    font-family: Arial;
+    position: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    border-color: white;
+    border-width: 0;
+    border-bottom-width: 1px;
+}
+
+.c-submit{
+    display: block;
+    font-family: Arial;
+    position: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    width: 100px;
+    height: 35px;
+    background-color: aquamarine;
+    color: black ;
+    border-color: aquamarine;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+.c-submit:hover{
+    background-color: white;
+    color: black;
+}
+
+.OTP{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    width: 225px;
+    display: inline-block;
+}
+
+.eprompt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.msg{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.resend{
+    display: inline-block;
+    font-family: Arial;
+    position: center;
+    margin-top: 15px;
+    margin-left: 55px;
+    width: 80px;
+    height: 30px;
+    background-color: aquamarine;
+    color: black ;
+    border-color: aquamarine;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+.resend:hover{
+    background-color: white;
+    color: black;
+}
