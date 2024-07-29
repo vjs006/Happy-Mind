@@ -7,8 +7,9 @@ Navigate to ```Envision/webpages/chatbot/``` folder.
 #### Prerequisites:
 python and pip installations.
 
-If flask not present, run in cmd - ```pip install flask``` 
-Run in cmd - ```pip install google.generativeai```
+If flask not present, run in cmd - ```pip install flask```. 
+
+Run in cmd - ```pip install google.generativeai```.
 
 Run the app.py python file in the chatbot folder.
 
