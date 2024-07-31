@@ -1,6 +1,8 @@
 # Happy-Mind
 A user friendly mental health chatbot that offers accessible and personalized support for individuals experiencing various mental health issues,while combating stigma and providing cost effective solutions.
 
+### Note: View the Idea Pdf for more details of the project
+
 ## To Run the Project:
 Navigate to ```Envision/webpages/chatbot/``` folder.
 
